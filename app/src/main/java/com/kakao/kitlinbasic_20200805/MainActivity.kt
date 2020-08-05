@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
             Log.d("버튼클릭됨","ClickMe버튼눌림!")
         }
 
+        secondBtn.setOnClickListener {
+            Log.d("버튼눌림","두번째버튼눌림!!")
+        }
 
     }
 }
