@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 //            Log.d("로그종류","로그내용") log debug
 //            Log.e("에러로그","에러내용") log error
 //            Log.i("정보로그","정보내용") log information
+
+            Toast.makeText(this,"두번째버튼눌림!",Toast.LENGTH_SHORT).show()
         }
 
     }
