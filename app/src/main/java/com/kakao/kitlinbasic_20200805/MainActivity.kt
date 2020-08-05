@@ -27,5 +27,13 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"두번째버튼눌림!",Toast.LENGTH_SHORT).show()
         }
 
+//        복사하기 버튼클릭할경우
+        copyBtn.setOnClickListener {
+//            messageEdt -> copyResultTxt 복사
+            val inputMessage = messageEdt.text.toString()
+            copyResultTxt.text = inputMessage
+
+        }
+
     }
 }
