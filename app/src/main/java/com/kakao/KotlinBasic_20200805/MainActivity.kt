@@ -37,15 +37,12 @@ class MainActivity : AppCompatActivity() {
 //            입력한내용이 5자이상 10자미만 일경우 로그 "10자이상 입력하세요"
 //            입력한내용이 5자이상일경우 문구반영
             if (inputMessage.length < 5) {
-                Toast.makeText(this,"5자이상 입력하세요.",Toast.LENGTH_SHORT).show()
-            } else if (inputMessage.length < 10){
-                Log.d("입력메세지", "10자이상 입력하세요")
+                Toast.makeText(this, "5자이상 입력하세요.", Toast.LENGTH_SHORT).show()
+            } else if (inputMessage.length < 10) {
+                Log.d("입력글자수", "5자이상 10자이상 입력하세요")
             } else {
-
+                copyResultTxt.text = inputMessage
             }
-
-
-            copyResultTxt.text = inputMessage
 
         }
 
