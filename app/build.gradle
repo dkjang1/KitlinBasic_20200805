@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.kakao.kitlinbasic_20200805"
+        applicationId "com.kakao.KotlinBasic_20200805"
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1

@@ -1,4 +1,4 @@
-package com.kakao.kitlinbasic_20200805
+package com.kakao.KotlinBasic_20200805
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.kakao.kitlinbasic_20200805", appContext.packageName)
+        assertEquals("com.kakao.KotlinBasic_20200805", appContext.packageName)
     }
 }

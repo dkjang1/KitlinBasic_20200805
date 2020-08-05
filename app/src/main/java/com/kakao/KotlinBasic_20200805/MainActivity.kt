@@ -1,4 +1,4 @@
-package com.kakao.kitlinbasic_20200805
+package com.kakao.KotlinBasic_20200805
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
