@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "KitlinBasic_20200805"
+rootProject.name = "KotlinBasic_20200805"
